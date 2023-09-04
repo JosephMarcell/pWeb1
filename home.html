@@ -1,58 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        #navigation {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+        }
+        
+        #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+}
+        #customer th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #d9f714;
+            color: black
+        }
+
+        img{
+            max-width: 100%;
+            height: auto;
+            opacity: 0.5;
+        }
+
+    </style>
 </head>
+<body >
 
-<style>
-    table, th, td {
-        border:1px solid black ;
-    }
-</style>
-
-
-<body>
-    <h1 style="background-color:plum;">LIL JOSEPH VERT.COM</h1>
-
-    <table style="width: 100%"> 
-    <tr>
-        <th>
-            <button type="button" onclick="window.location.href = 'home.html';">HOME</button>
-        </th>
-
-        <th>
-            <button type="button" onclick="window.location.href = 'donation.html';">DONATE</button>
-        </th>
-    
-        <th>
-            <b><button type="button" onclick="window.location.href = 'donation.html';">CONTACT US</button></b>
-        </th>
-    </tr>
-    </table>
-
-    <div>
-        <table style="width: 50%;">
-        <tr>
-            <th>
-                <img src="trepis.jpg" style="width:550px;height:750px;">
-            </th>
-
-            <th>
-                <h2><b>GET TO KNOW ME</b></h2>
-                <p style="margin: 20px;">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                    laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                </p>
-            </th>
-        </tr>
-    </table>
+    <div class="Navigation Button">
+        <table id="navigation">
+            <tr>
+               <th><a href="home.html"><h2>MAIN</h2></a></th> 
+               <th><a href="LATEST RELEASE.html"><h2>LATEST RELEASE</h2></a></th> 
+               <th><h2>ABOUT</h2></th> 
+               <th><h2>CONTACT</h2></th>          
+               <th><h2>MESSAGE ME</h2><th>
+            </tr>
+        </table>
     </div>
     
-
+    <img src="snoopy kecikk.jpg" alt="snoopy waktu 3 bulan"  width="1500" height="200">
 
 
 </body>
 </html>
+
+
